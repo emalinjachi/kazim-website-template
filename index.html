@@ -11,16 +11,24 @@
 </head>
 <body>
     <!-- navigation bar-->
-    <nav id="navBar" class="container">
-        <ul>
-            <img id="logotop" class="img-fluid" src="images/ka-back.png" alt="">
-            <li id="nav-link"><a href="#home">home</a></li>
-            <li id="nav-link"><a href="#services">Services</a></li>
-            <li id="nav-link"><a href="#portofolio">Portofolio</a></li>
-            <li id="nav-link"><a href="#testmonials">Testmonials</a></li>
-            <li id="nav-link" class="lets"><a href="#">Let's Talk</a></li>
-        </ul>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div id="banner" class="container-fluid">
+            <a id="logotop" class="img-responsive" href="#home"><img src="images/ka-back.png" alt="..." width="75px" height="35px"/></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars ms-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul id="" class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portofolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testmonials">Testmonials</a></li>
+                    <li class="nav-item"><a id="lets" class="nav-link" href="#">Let's Taklk</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
+
     <!-- Nyumbani utambulisho-->
     <div id="home" class="container row">
         <div id="home1" class="container col-md-6">
@@ -31,8 +39,8 @@
                 <a href="#" id="talk">Let's Talk</a> <br><br>
             </div>
         </div>
-        <div id="home2" class="container col-md-4">
-            <img id="image1" class="img-fluid" src="images/image0.png" alt="">
+        <div id="home2" class="container col-md-3">
+            <img id="image1" class="img-fluid" src="images/image.png" alt="">
         </div>
     </div>
     <!-- Ujuzi alionao-->
@@ -138,5 +146,6 @@
     </div>
 
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>

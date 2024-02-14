@@ -7,20 +7,60 @@ body{
     background-color: rgb(236, 226, 226);
 }
 
-#navBar{
-    margin-top:0px 30px;
-    display: flex;
-    justify-content: center;
+#banner{
+    margin-top: -10px;
+    background-color: #d9d9d9;
+    padding: 10px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#mainNav{
+ 
+}
+
+#navbar{
+
     
 }
 #logotop{
-    width: 100px;
-    height: 50px;
-    margin-left: -200px;
-    margin-right: 100px;
+ 
 }
-.lets{
+.nav-item a{
+    color: black;
+}
+#lets{
     background-color: #fddb0a;
+    color: black;
+    margin-left: 40px;
     padding: 5px 30px;
     border-radius: 20px;
 }
@@ -34,7 +74,8 @@ body{
     font-size: 1.3em;
 }
 #home{
-   padding-top: 40px;
+    margin-top: 100px;
+    padding-top: 40px;
    
 }
 #home1{
@@ -46,12 +87,12 @@ body{
     margin-right: 30px;
 }
 #image1{
-    max-width: 400px;
+    max-width: 350px;
     height: auto;
 }
 #links1 #want{
     margin-right: 10px;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border: 1px solid black;
     border-radius: 20px;
     text-decoration: none;
@@ -62,7 +103,7 @@ body{
     background-color: #fddb0a;
     border: none;
     margin-right: 10px;
-    padding: 10px 40px;
+    padding: 5px 20px;
     border-radius: 20px;
     text-decoration: none;
     color: black;
@@ -79,7 +120,7 @@ body{
     text-align: center;
     font-weight: bold;
     margin-right: 30px;
-    width: 250px;
+    width: px;
 }
 #services{
     margin-top: 100px;
