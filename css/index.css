@@ -1,0 +1,179 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(236, 226, 226);
+}
+
+#navBar{
+    margin-top:0px 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+#logotop{
+    width: 100px;
+    height: 50px;
+    margin-left: -200px;
+    margin-right: 100px;
+}
+.lets{
+    background-color: #fddb0a;
+    padding: 5px 30px;
+    border-radius: 20px;
+}
+#nav-link{
+    display:inline-block;
+    margin: 30px;
+}
+#nav-link a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+}
+#home{
+   padding-top: 40px;
+   
+}
+#home1{
+    padding-left: 50px;
+}
+#black span{
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 30px;
+}
+#image1{
+    max-width: 400px;
+    height: auto;
+}
+#links1 #want{
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#links1 #talk{
+    background-color: #fddb0a;
+    border: none;
+    margin-right: 10px;
+    padding: 10px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#skills{
+    text-align: center;
+    padding: 20px 30px;
+    background-color: #222222;
+    color: white;
+    margin-top: 40px;
+}
+#skills span{
+    text-align: center;
+    font-weight: bold;
+    margin-right: 30px;
+    width: 250px;
+}
+#services{
+    margin-top: 100px;
+    
+}
+#headService{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+#servicesList{
+ 
+}
+#serviceList div{
+    text-align: center;
+    max-width: 300px;
+    margin: 25px;
+    padding: 30px;
+    background-color: #d9d9d9;
+    font-size: 1.5em;
+}
+#view{
+    text-align: center;
+    color: black;
+    font-size: 1.3em;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #fddb0a;
+    width: 150px;
+    margin-top: 30px;
+    padding: 5px 30px;
+}
+
+#portofolio{
+    margin-top: 100px;
+}
+#headPortofolio{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#portofolioList div h6{
+    font-size: 1.5em;
+}
+#portofolioList div{
+    width: 300px;
+    margin: 25px;
+    padding: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+#testmonials{
+    margin-top: 100px;
+}
+#testmonialsHead{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#testmonialsList div h6{
+    font-size: 1.5em;
+    margin: 30px 0px 0px 0px;
+}
+#testmonialsList div{
+    width: 300px;
+    margin: 25px;
+    padding: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+#footer{
+background-color: #222222;
+margin-top: 50px;
+padding: 60px 0px;
+}
+#logodown{
+    margin-left: 30px;
+    width: 140px;
+    height: 70px;
+}
+#foot-links{
+    display: flex;
+    align-items: center;
+}
+#icon{
+    /* font-size: 2em;
+    margin-right: 20px; */
+}
+#foot-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    text-align: left;
+}
+.fa{
+    color: white;
+}
